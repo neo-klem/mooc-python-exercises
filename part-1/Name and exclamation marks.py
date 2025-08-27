@@ -1,11 +1,9 @@
-#Please write a program which asks for the user's name and then prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, another between the two names and a third one at the end of the line.
+# Ask user for their name and then print is as shown below:
+# !name!name!
+# name is a variable we use for prompting the user.
 
 name = input("What is your name? ")
 
-print("!" + name + "!" + name + "!")
+print(f"!{name}!{name}!")
 
-"""
-
-Here were using a simple way of joining strings and user inputed variable "name" without f-strings
-
-"""
+# We used an f-string so that we don't need to add so much + and " ".
